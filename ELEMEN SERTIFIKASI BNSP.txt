@@ -1,0 +1,270 @@
+ELEMEN SERTIFIKASI BNSP
+
+1. Elemen: Menggunakan metode pengembangan program
+Kriteria Unjuk Kerja :
+Metode pengembangan aplikasi (software development) didefinisikan
+Metode pengembangan aplikasi (software development) dipilih sesuai kebutuhan.
+
+2. Elemen: Menggunakan diagram program dan deskripsi program
+Kriteria Unjuk Kerja :
+Diagram program dengan metodologi pengembangan sistem didefinisikan
+Metode pemodelan, diagram objek dan diagram komponen digunakan pada implementasi program sesuai dengan spesifikasi.
+
+3. Elemen: Menerapkan hasil pemodelan ke dalam pengembangan program
+Kriteria Unjuk Kerja :
+Hasil pemodelan yang mendukung kemampuan metodologi dipilih sesuai spesifikasi.
+Hasil pemrograman (Integrated Development Environment-IDE) yang mendukung kemampuan metodologi bahasa pemrograman dipilih sesuai spesifikasi.
+
+4. Elemen: Mengidentifikasi konsep data dan struktur data
+Kriteria Unjuk Kerja :
+Konsep data dan struktur data diidentifikasi sesuai dengan konteks permasalahan.
+Alternatif struktur data dibandingkan kelebihan dan kekurangannya untuk konteks permasalahan yang diselesaikan.
+
+5. Elemen: Menerapkan struktur data dan akses terhadap struktur data tersebut
+Kriteria Unjuk Kerja :
+Struktur data diimplementasikan sesuai dengan bahasa pemrograman yang akan dipergunakan.
+Akses terhadap data dinyatakan dalam algoritma yang efisiensi sesuai Bahasa pemrograman yang akan dipakai.
+
+6. Elemen: Mengidentifikasi rancangan user interface
+Kriteria Unjuk Kerja :
+Rancangan user interface diidentifikasi sesuai kebutuhan.
+Komponen user interface dialog diidentifikasi sesuai konteks rancangan proses.
+Urutan dari akses komponen user interface dialog dijelaskan.
+Simulasi (mock-up) dari aplikasi yang akan dikembangkan dibuat.
+
+7. Elemen: Melakukan implementasi rancangan user interface
+Kriteria Unjuk Kerja :
+Menu program sesuai dengan rancangan program diterapkan.
+Penempatan user interface dialog diatur secara sekuensial.
+Setting aktif-pasif komponen user interface dialog disesuaikan dengan urutan alur proses.
+Bentuk style dari komponen user interface ditentukan.
+Penerapan simulasi dijadikan suatu proses yang sesungguhnya.
+
+8. Elemen: Mengidentifikasi entitas yang terkait dengan lingkup program yang akan dibuat beserta hubungannya
+Kriteria Unjuk Kerja :
+Entitas yang menggambarkan sistem yang dibuat dapat diidentifikasikan sesuai dokumen perancangan.
+Berbagai diagram dapat dibuat dari entity yang telah didefinisikan.
+
+9. Elemen: Membuat query informasi dasar terhadap model data yang telah dikembangkan
+Kriteria Unjuk Kerja :
+Informasi yang diperlukan oleh aplikasi dapat dihasilkan dengan efisien dari model yang dibuat.
+Diagram berdasar entitas dan hubungan yang telah diidentifikasi dapat diimplementasikan menggunakan tools yang ada.
+
+10. Elemen: Membuat berbagai operasi terhadap basis data
+Kriteria Unjuk Kerja :
+Data dapat disimpan/diubah ke dalam format basis data.
+Informasi yang diinginkan dapat dihasilkan menggunakan query tersebut.
+Indeks dipergunakan untuk mempercepat akses.
+
+11. Elemen: Membuat prosedur akses terhadap basis data
+Kriteria Unjuk Kerja :
+Library akses basis data dapat diterapkan.
+Perintah akses data yang relevan dengan teknologi atau jenis baru data, diterapkan untuk mengakses data. tools yang ada.
+
+12.  Elemen: Membuat koneksi basis data
+Kriteria Unjuk Kerja :
+Teknologi koneksi yang sesuai dipilih
+Keamanan koneksi ditentukan.
+Hak setiap pengguna ditentukan.
+
+13. Elemen: Menguji program basis data
+Kriteria Unjuk Kerja :
+Skenario pengujian disiapkan
+Logika pemrograman mengacu pada kinerja statement akses data yang akan dibaca.
+Performansi mengacu pada kinerja statement akses data yang akan dibaca data diuji.
+
+14. Elemen: Mempersiapkan perangkat lunak aplikasi data deskripsi/SQL
+Kriteria Unjuk Kerja :
+Perangkat lunak aplikasi SQL telah dipasang
+Perangkat lunak aplikasi SQL dijalankan.
+
+15. Elemen: Menggunakan fitur aplikasi SQL
+Kriteria Unjuk Kerja :
+Fitur pengolahan DML diidentifikasikan.
+Fitur pengolahan DML dieksekusi sesuai kebutuhan.
+
+16. Elemen: Mengisi tabel
+Kriteria Unjuk Kerja :
+Tabel diisi data menggunakan perintah DML.
+Indeks dibangkitkan.
+View tabel dibentuk sesuai kebutuhan.
+
+17. Elemen: Melakukan operasi relasional
+Kriteria Unjuk Kerja :
+Fitur pengolahan DML diidentifikasikan.
+Perintah DML dipergunakan untuk manipulasi antar tabel.
+Perintah DML dipergunakan untuk manipulasi antar-view.
+Perintah DML ditulis secara efisien.
+
+18. Elemen: Membuat stored procedure
+Kriteria Unjuk Kerja :
+Stored Procedure dibuat dengan perintah SQL.
+Prosedur diuji diperiksa input dan outputnya.
+
+19. Elemen: Membuat function
+Kriteria Unjuk Kerja :
+Function dibuat dengan perintah SQL.
+Perintah SQL pada function ditulis secara efisien.
+
+20. Elemen: Membuat trigger
+Kriteria Unjuk Kerja :
+Trigger didefinisikan dengan perintah SQL.
+Kesesuaian hasil trigger diuji.
+
+21. Elemen: Melakukan perintah commit dan rollback
+Kriteria Unjuk Kerja :
+Perubahan data dengan perintah commit dilakukan.
+Pembatalan penulisan data dilakukan dengan rollback.
+
+22. Elemen: Melakukan pemilihanunit-unit reuse yang potensial
+Kriteria Unjuk Kerja :
+Class unit-unit reuse (dari aplikasi lain) yang sesuai dapat diidentifikasi.
+Keuntungan efisiensi dari pemanfaatan komponen reuse dapat dihitung.
+Lisensi, Hak cipta dan hak paten tidak dilanggar dalam pemanfaatan komponen reuse tersebut.
+
+23. Elemen: Melakukan integrasi library atau komponen pre-existing dengan source code yang ada
+Kriteria Unjuk Kerja :
+Ketergantungan antar unit diidentifikasi.
+Penggunaan komponen yang sudah obsolete dihindari..
+Program yang dihubungkan dengan library diterapkan.
+
+24. Elemen: Melakukan pembaharuan library atau komponen preexisting yang digunakan
+Kriteria Unjuk Kerja :
+Cara-cara pembaharuan library atau komponen pre-existing diidentifikasi.
+Pembaharuan library atau komponen preexisting berhasil dilakukan.
+
+25. Elemen: Menjelaskan varian dan invarian
+Kriteria Unjuk Kerja :
+Tipe data telah dijelaskan sesuai kaidah pemrograman.
+Variabel telah dijelaskan sesuai kaidah pemrograman.
+Konstanta telah dijelaskan sesuai kaidah pemrograman.
+
+26.  Elemen: Membuat alur logika pemrograman.
+Kriteria Unjuk Kerja :
+Metode yang sesuai ditentukan.
+Komponen yang dibutuhkan ditentukan.
+Relasi antar komponen ditetapkan.
+Alur mulai dan selesai ditetapkan.
+
+27. Elemen: Menerapkan teknik dasar algoritma umum
+Kriteria Unjuk Kerja :
+Algoritma untuk sorting dibuat.
+Algoritma untuk searching dibuat.
+
+28. Elemen: Menggunakan prosedur dan fungsi
+Kriteria Unjuk Kerja :
+Konsep penggunaan kembali prosedur dan fungsi dapat diidentifikasi.
+Prosedur dapat digunakan.
+Fungsi dapat digunakan.
+
+29. Elemen: Mengidentifikasikan kompleksitas algoritma
+Kriteria Unjuk Kerja :
+Kompleksitas waktu algoritma diidentifikasi.
+Kompleksitas penggunaan memory algoritma diidentifikasi.
+
+30. Elemen: Menggunakan tipe data dan control program
+Kriteria Unjuk Kerja :
+Tipe data yang sesuai standar ditentukan.
+Syntax program yang dikuasai digunakan sesuai standar.
+Struktur kontrol program yang dikuasai digunakan sesuai standar.
+
+31. Elemen: Membuat program sederhana
+Kriteria Unjuk Kerja :
+Program baca tulis untuk memasukkan data dari keyboard dan menampilkan ke layar monitor termasuk variasinya sesuai standar masukan/keluaran telah dibuat.
+Struktur kontrol percabangan dan pengulangan dalam membuat program telah digunakan.
+
+32. Elemen: Membuat program menggunakan prosedur dan fungsi
+Kriteria Unjuk Kerja :
+Program dengan menggunakan prosedur dibuat sesuai aturan penulisan program
+Program dengan menggunakan fungsi dibuat sesuai aturan penulisan program.
+Program dengan menggunakan prosedur dan fungsi secara bersamaan dibuat sesuai aturan penulisan program.
+Keterangan untuk setiap prosedur dan fungsi telah diberikan.
+
+33. Elemen: Membuat program menggunakan array
+Kriteria Unjuk Kerja :
+Dimensi array telah ditentukan.
+Tipe data array telah ditentukan.
+Panjang array telah ditentukan.
+Pengurutan array telah digunakan.
+
+34. Elemen: Membuat program untuk akses file
+Kriteria Unjuk Kerja :
+Program untuk menulis data dalam media penyimpan telah dibuat.
+Program untuk membaca data dari media penyimpan telah dibuat.
+
+35. Elemen: Mengkompilasi Program
+Kriteria Unjuk Kerja :
+Kesalahan program telah dikoreksi.
+Kesalahan syntax dalam program telah dibebaskan.
+
+36. Elemen: Membuat program berorientasi objek dengan memanfaatkan class
+Kriteria Unjuk Kerja :
+Program dengan menggunakan class dibuat.
+Properti class yang akan direalisasikan dalam bentuk prosedur/fungsi dibuat.
+Data didalam class dibuat mandiri.
+Hak akses dari tipe data (private, protected, public) dikelola
+
+37. Elemen: Menggunakan tipe data dan control program pada metode atau operasi dari suatu kelas
+Kriteria Unjuk Kerja :
+Tipe data diidentifikasi.
+Sintaks program dikuasai sesuai dengan bahasa pemrogramnnya.
+Control program dikuasai.
+
+38. Elemen: Membuat program dengan konsep berbasis objek
+Kriteria Unjuk Kerja :
+Inheritance pada class diterapkan
+Polymorphism pada class diterapkan.
+Overloading pada class diterapkan
+
+39. Elemen: Membuat program object oriented dengan interface dan paket embuat program dengan konsep berbasis objek
+Kriteria Unjuk Kerja :
+Interface class program dibuat.
+Paket dengan program dibuat.
+
+40. Elemen: Mengkompilasi Program
+Kriteria Unjuk Kerja :
+Kesalahan dapat dikoreksi
+Program bebas salah sintaks dihasilkan.
+
+41. Elemen: Melakukan identifikasi kode program
+Kriteria Unjuk Kerja :
+Modul program diidentifikasi
+Parameter yang dipergunakan diidentifikasi.
+Algoritma dijelaskan cara kerjanya
+Komentar setiap baris kode termasuk data, eksepsi, fungsi, prosedur dan class (bila ada) diberikan.
+
+42. Elemen: Melakukan identifikasi kode program
+Kriteria Unjuk Kerja :
+Dokumentasi modul dibuat sesuai dengan identitas untuk memudahkan pelacakan
+Identifikasi dokumentasi diterapkan
+Kegunaan modul dijelaskan
+Dokumen direvisi sesuai perubahan kode program
+
+43. Elemen: Membuat dokumentasi fungsi, prosedur atau method program
+Kriteria Unjuk Kerja :
+Dokumentasi fungsi, prosedur atau metod dibuat
+Kemungkinan eksepsi dijelaskan
+Dokumen direvisi sesuai perubahan kode program
+
+44.  Elemen: Men-generate dokumentasi
+Kriteria Unjuk Kerja :
+Tools untuk generate dokumentasi diidentifikasi
+Generate dokumentasi dilakukan
+
+45. Elemen: Mempersiapkan kode program
+Kriteria Unjuk Kerja :
+Kode program sesuai spesifikasi disiapkan.
+Debugging tools untuk melihat proses suatu modul dipersiapkan.
+
+46. Elemen: Melakukan debugging
+Kriteria Unjuk Kerja :
+Kode program dikompilasi sesuai bahasa pemrograman yang digunakan.
+Kriteria lulus build dianalisis.
+Kriteria eksekusi aplikasi dianalisis.
+Kode kesalahan dicatat.
+
+47. Elemen: Memperbaiki program
+Kriteria Unjuk Kerja :
+Perbaikan terhadap kesalahan kompilasi maupun build dirumuskan.
+Perbaikan dilakukan.
+
