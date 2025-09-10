@@ -13,11 +13,15 @@ return new class extends Migration
     {
         Schema::create('surats', function (Blueprint $table) {
             $table->id();
-            $table->string('nomor_surat')->unique();
-            $table->string('kategori');
+            $table->string('nomor_surat');
+            $table->unsignedBigInteger('kategori_id'); // foreign key
             $table->string('judul');
             $table->timestamp('waktu_pengarsipan')->useCurrent();
             $table->string('file');
+            $table->timestamps();
+    
+            // relasi FK
+            $table->foreign('kategori_id')->references('id')->on('kategoris')->onDelete('cascade');
         });
     }
     
